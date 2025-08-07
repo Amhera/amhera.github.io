@@ -1,0 +1,108 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff8f4;
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+nav {
+  background: #f48fb1; /* soft pink */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+nav a {
+  float: left;
+  padding: 16px 24px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background: #f06292; /* deeper pink on hover */
+}
+
+nav a.active {
+  background: #ec407a; /* highlight active tab */
+}
+
+.container {
+  padding: 30px;
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  color: #d81b60;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 280px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.sparkles {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  background: urlhttps://img.freepik.com/premium-vector/aesthetic-cute-pastel-pink-backdrop-illustration-perfect-wallpaper-backdrop-postcard-background-banner-your-design_565280-804.jpg) repeat;
+  background-size: contain;
+  z-index: 999;
+  opacity: 0.3;
+}
+#music-player {
+  margin-bottom: 20px;
+}
+
+#music-player {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+#music-toggle {
+  padding: 12px 24px;
+  background-color: #f48fb1;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background 0.3s;
+}
+
+#music-toggle:hover {
+  background-color: #ec407a;
+}
+#music-toggle:hover {
+  background-color: #ec407a;
+  transform: scale(1.05);
+}
+
